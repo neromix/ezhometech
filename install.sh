@@ -96,7 +96,7 @@ if test -z $yn; then
 yn="y"
 fi
 if [ "$yn" != "Y" ] && [ "$yn" != "y" ]; then
-echo 'Type "cd ezserver" , then "./start.sh" to start Ezserver...'
+echo 'Type "cd ezserver" , then "./setup.sh" to start Ezserver...'
 echo " "
 exit 0
 fi

@@ -3,7 +3,7 @@ sudo apt-get update && apt-get upgrade -y && apt-get install htop -y
 sudo apt-get update && sudo apt-get install vlc vlc-plugin-* -y && sudo apt-get install vlc browser-plugin-vlc -y
 
 if [ -e ezserver.free.tar ]; then
-rm -f ezserver.free.tar
+
 fi
 read  -p "Please enter installation password? " dpass
 if test -z $dpass; then

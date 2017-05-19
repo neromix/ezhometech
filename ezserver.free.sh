@@ -28,9 +28,8 @@ wget https://raw.githubusercontent.com/marconimp/ezhometech/master/ezserver_free
 wget https://raw.githubusercontent.com/marconimp/ezhometech/master/ezserver_free.part2.rar
 sudo unrar x ezserver_free.part1.rar
 echo " "
-tar xfvz ezserver.free.tar
-rm ezserver.free.tar
-rm -f ezserver.free.tar
+rm ezserver_free.part1.rar
+rm ezserver_free.part2.rar
 echo " "
 cd ezserver_free
 chmod 777 *.*

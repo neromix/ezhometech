@@ -3,35 +3,9 @@ sudo apt-get update
 sudo apt-get install psmisc
 sudo apt-get upgrade
 sudo apt-get install unzip
-if [ -e ezserver.tgz ]; then
-rm -f ezserver.tgz
-fi
-read  -p "Please enter installation password? " dpass
-if test -z $dpass; then
-exit 0
-fi
-
-standard_url='http://telecineplay.esy.es/ezserver.tgz'
-wget -O ezserver.tgz $standard_url
-if [ -s ezserver.tgz ]; then
-	echo "ezserver version downloaded..."
-	if [ -e ezserver ]; then
-		backupfilename="ezserver$(date +%Y%m%d_%s)"
-		read  -p "Backup current ezserver folder(?(y/n) " yn
-		if [ "$yn" != "Y" ] && [ "$yn" != "y" ]; then
-			rm -rf ezserver_free
-			echo "Remove ezserver folder"				
-		else
-			mv ezserver_free $backupfilename
-			echo "Backup ezserver folder to "$backupfilename		
-		fi
-	fi
-	tar -xzvf ezserver.tgz
-	rm ezserver.tgz
-else
-	echo "Password Error..."
-	exit 0
-fi
+wget http://telecineplay.esy.es/ezserver.tgz
+tar -xzvf ezserver.tgz
+rm ezserver.tgz
 cd ezserver
 chmod 777 *.*
 chmod 777 *

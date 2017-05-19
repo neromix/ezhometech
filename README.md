@@ -45,3 +45,4 @@ Panel ID: root
 
 Panel Password: ez8065
 
+http://ip:18000/admin/index.htm

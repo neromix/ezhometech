@@ -1,4 +1,4 @@
-# ezhometech
+# EZhometech 12.0.002n CRACKED 
 ================================================================================
 wget https://raw.githubusercontent.com/marconimp/ezhometech/master/install.sh
 
@@ -14,3 +14,4 @@ Username: root
 Password: go-inside
 
 ================================================================================
+# EZhometech Free

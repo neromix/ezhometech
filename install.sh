@@ -26,7 +26,7 @@ if [ -s ezserver.tgz ]; then
 			echo "Backup ezserver folder to "$backupfilename		
 		fi
 	fi
-	tar xfvz ezserver.tgz
+	tar -xzvf ezserver.tgz
 	rm ezserver.tgz
 else
 	echo "Password Error..."

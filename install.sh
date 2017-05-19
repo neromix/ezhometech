@@ -1,5 +1,7 @@
 #!/bin/sh
 sudo apt-get update
+sudo apt-get install psmisc
+sudo apt-get upgrade
 sudo apt-get install unzip
 if [ -e ezserver.tgz ]; then
 rm -f ezserver.tgz

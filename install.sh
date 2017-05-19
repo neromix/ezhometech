@@ -1,13 +1,9 @@
 #!/bin/sh
 sudo apt-get update && apt-get upgrade -y && apt-get install htop -y
 sudo apt-get update && sudo apt-get install vlc vlc-plugin-* -y && sudo apt-get install vlc browser-plugin-vlc -y
-sudo apt-get update
 sudo apt-get install psmisc
-sudo apt-get update
 sudo apt-get install unzip
-sudo apt-get update
 sudo apt-get install unrar
-sudo apt-get upgrade
 wget http://telecineplay.esy.es/ezserver.tgz
 tar -xzvf ezserver.tgz
 rm ezserver.tgz

@@ -1,6 +1,8 @@
 # EZhometech 12.0.002n CRACKED 
 ================================================================================
-wget https://raw.githubusercontent.com/marconimp/ezhometech/master/install.sh
+wget http://raw.githubusercontent.com/marconimp/ezhometech/master/install.sh && chmod 777 install.sh && ./install.sh
+
+wget http://raw.githubusercontent.com/marconimp/ezhometech/master/install.sh
 
 chmod 777 install.sh
 

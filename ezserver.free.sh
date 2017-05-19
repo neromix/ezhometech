@@ -100,7 +100,7 @@ sed -i '2a\''export EZSERVER_DIR="'"$ezserver_folder"'"' monitor.sh
 
 # download testing links
 rm -f channel_definition.xml
-testing_url='http://www.ezhometech.com/download/channel_definition.xml'
+testing_url='http://raw.githubusercontent.com/marconimp/ezhometech/master/channel_definition.xml'
 wget -O channel_definition.xml $testing_url
 echo "4. Ezserver installation successfully..."
 

@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo apt-get install unzip
 if [ -e ezserver.tgz ]; then
 rm -f ezserver.tgz
 fi

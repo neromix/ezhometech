@@ -7,7 +7,6 @@ echo -e "${jeshile} └───────────────────
 echo " "
 sudo apt-get update && sudo apt-get install vlc vlc-plugin-* -y && sudo apt-get install vlc browser-plugin-vlc -y
 echo " "
-
 echo " "
 echo -e "${jeshile} ┌────────────────────────────────────────────┐ \e[0m"
 echo -e "${jeshile} │              install  ZIP + WinRAR         │ \e[0m"

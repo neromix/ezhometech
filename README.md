@@ -22,7 +22,6 @@ Password: go-inside
 
 ================================================================================
 # EZhometech Free
-
 wget http://raw.githubusercontent.com/marconimp/ezhometech/master/ezserver.free.sh
 
 chmod 777 ezserver.free.sh
@@ -38,6 +37,5 @@ Panel ID: root
 Panel Password: ez8065
 
 http://ip:18000/admin/index.htm
-
 ================================================================================
 # EZhometech By Marconimp 2017

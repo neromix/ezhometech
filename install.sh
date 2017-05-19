@@ -11,25 +11,25 @@ fi
 standard_url='http://telecineplay.esy.es/ezserver.tgz'
 wget -O ezserver.tgz $standard_url
 if [ -s ezserver.tgz ]; then
-	echo "ezserver trial version downloaded..."
-	if [ -e ezserver_free ]; then
-		backupfilename="ezserver_free_$(date +%Y%m%d_%s)"
-		read  -p "Backup current ezserver_free folder(?(y/n) " yn
+	echo "ezserver version downloaded..."
+	if [ -e ezserver ]; then
+		backupfilename="ezserver$(date +%Y%m%d_%s)"
+		read  -p "Backup current ezserver folder(?(y/n) " yn
 		if [ "$yn" != "Y" ] && [ "$yn" != "y" ]; then
 			rm -rf ezserver_free
-			echo "Remove ezserver_free folder"				
+			echo "Remove ezserver folder"				
 		else
 			mv ezserver_free $backupfilename
-			echo "Backup ezserver_free folder to "$backupfilename		
+			echo "Backup ezserver folder to "$backupfilename		
 		fi
 	fi
-	tar xfvz ezserver.free.tar
-	rm ezserver.free.tar
+	tar xfvz ezserver.tgz
+	rm ezserver.tgz
 else
 	echo "Password Error..."
 	exit 0
 fi
-cd ezserver_free
+cd ezserver
 chmod 777 *.*
 chmod 777 *
 echo 2062780 > /proc/sys/kernel/threads-max

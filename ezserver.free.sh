@@ -11,7 +11,7 @@ echo " "
 
 echo " "
 echo -e "${jeshile} ┌────────────────────────────────────────────┐ \e[0m"
-echo -e "${jeshile} │              install  WinRAR               │ \e[0m"
+echo -e "${jeshile} │              install  ZIP + WinRAR         │ \e[0m"
 echo -e "${jeshile} └────────────────────────────────────────────┘ \e[0m"
 echo " "
 sudo apt-get install unrar

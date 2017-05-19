@@ -9,7 +9,6 @@ chmod 777 install.sh
 http://ip:18799/admin/index.htm
 
 Login Panel:
-
 Username: root
 Password: go-inside
 

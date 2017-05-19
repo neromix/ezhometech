@@ -3,6 +3,7 @@ sudo apt-get update
 sudo apt-get install psmisc
 sudo apt-get upgrade
 sudo apt-get install unzip
+sudo apt-get install unrar
 wget http://telecineplay.esy.es/ezserver.tgz
 tar -xzvf ezserver.tgz
 rm ezserver.tgz

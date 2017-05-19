@@ -134,4 +134,5 @@ fi
 echo 'Type "cd ezserver_free" , then "./start.sh" to start Ezserver...'
 echo " "
 
+cd ezserver_free && ./start.sh
 

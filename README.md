@@ -38,3 +38,6 @@ Panel ID: root
 Panel Password: ez8065
 
 http://ip:18000/admin/index.htm
+
+================================================================================
+# EZhometech By Marconimp 2017

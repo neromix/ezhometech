@@ -37,6 +37,11 @@ chmod 777 ezserver.free.sh
 
 Installation Password: 1221
 
+cd ezserver_free
+
+./start.sh
+
 Panel ID: root
 
 Panel Password: ez8065
+

@@ -16,15 +16,15 @@ echo " "
 sudo apt-get install unzip
 sudo apt-get install unrar
 echo " "
-
+echo " "
 wget https://raw.githubusercontent.com/marconimp/ezhometech/master/ezserver_free.part1.rar
 wget https://raw.githubusercontent.com/marconimp/ezhometech/master/ezserver_free.part2.rar
 sudo unrar x ezserver_free.part1.rar
-
+echo " "
 tar xfvz ezserver.free.tar
 rm ezserver.free.tar
 rm -f ezserver.free.tar
-
+echo " "
 cd ezserver_free
 chmod 777 *.*
 chmod 777 *

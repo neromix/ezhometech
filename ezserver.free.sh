@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo apt-get install unzip
 if [ -e ezserver.free.tar ]; then
 rm -f ezserver.free.tar
 fi

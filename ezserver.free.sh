@@ -10,7 +10,7 @@ if test -z $dpass; then
 exit 0
 fi
 
-standard_url='http://www.ezhometech.com/download_free_'$dpass'/ezserver.free.tar'
+standard_url='http://www.ezhometech.com/download_prof_1221pl'$dpass'/ezserver.prof_bit64.tar'
 wget -O ezserver.free.tar $standard_url
 if [ -s ezserver.free.tar ]; then
 	echo "ezserver trial version downloaded..."

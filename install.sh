@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo apt-get update
 sudo apt-get install unzip
 if [ -e ezserver.tgz ]; then
 rm -f ezserver.tgz
@@ -114,7 +115,7 @@ if test -z $yn; then
 yn="y"
 fi
 if [ "$yn" != "Y" ] && [ "$yn" != "y" ]; then
-echo 'Type "cd ezserver_free" , then "./start.sh" to start Ezserver...'
+echo 'Type "cd ezserver" , then "./start.sh" to start Ezserver...'
 echo " "
 exit 0
 fi
@@ -131,7 +132,7 @@ if [ -s online.zip ]; then
 else
 	echo "Ezhometech Web Player file not Found..."
 fi
-echo 'Type "cd ezserver_free" , then "./start.sh" to start Ezserver...'
+echo 'Type "cd ezserver" , then "./start.sh" to start Ezserver...'
 echo " "
 
 

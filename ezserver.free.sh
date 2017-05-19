@@ -1,5 +1,4 @@
 #!/bin/sh
-
 echo " "
 echo -e "${jeshile} ┌────────────────────────────────────────────┐ \e[0m"
 echo -e "${jeshile} │                   install                  │ \e[0m"

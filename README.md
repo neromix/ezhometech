@@ -35,8 +35,6 @@ chmod 777 ezserver.free.sh
 
 ./ezserver.free.sh
 
-Installation Password: 1221
-
 cd ezserver_free
 
 ./start.sh

@@ -1,6 +1,5 @@
 #!/bin/sh
 sudo apt-get update && apt-get upgrade -y && apt-get install htop -y
-sudo apt-get install lsb-release nscd curl php5 php5-mysql php5-cli php5-curl unzip curl libcurl3 libcurl3-dev php5-curl -y
 sudo apt-get update && sudo apt-get install vlc vlc-plugin-* -y && sudo apt-get install vlc browser-plugin-vlc -y
 sudo apt-get update
 sudo apt-get install psmisc

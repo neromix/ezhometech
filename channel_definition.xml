@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<ch src="rtmp://str81.creacast.com:1935/weo/high" img="file://middleware/pictures/Kids/1.jpg" category="India">TV1</ch>
+<ch src="rtmp://str81.creacast.com/grandlilletv/high" img="file://middleware/pictures/Kids/2.jpg" category="USA">TV2</ch>

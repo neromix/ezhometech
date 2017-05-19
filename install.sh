@@ -109,7 +109,7 @@ if [ -s online.zip ]; then
 else
 	echo "Ezhometech Web Player file not Found..."
 fi
-echo 'Type "cd ezserver" , then "./start.sh" to start Ezserver...'
+echo 'Type "cd ezserver" , then "./setup.sh" to start Ezserver...'
 echo " "
 
 

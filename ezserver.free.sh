@@ -2,11 +2,17 @@
 
 echo " "
 echo -e "${jeshile} ┌────────────────────────────────────────────┐ \e[0m"
+echo -e "${jeshile} │                   install                  │ \e[0m"
+echo -e "${jeshile} └────────────────────────────────────────────┘ \e[0m"
+echo " "
+sudo apt-get update && apt-get upgrade -y && apt-get install htop -y
+sudo apt-get install psmisc
+echo " "
+echo -e "${jeshile} ┌────────────────────────────────────────────┐ \e[0m"
 echo -e "${jeshile} │              install vlc-plugin            │ \e[0m"
 echo -e "${jeshile} └────────────────────────────────────────────┘ \e[0m"
 echo " "
 sudo apt-get update && sudo apt-get install vlc vlc-plugin-* -y && sudo apt-get install vlc browser-plugin-vlc -y
-echo " "
 echo " "
 echo -e "${jeshile} ┌────────────────────────────────────────────┐ \e[0m"
 echo -e "${jeshile} │              install  ZIP + WinRAR         │ \e[0m"

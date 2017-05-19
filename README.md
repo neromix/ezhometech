@@ -8,6 +8,9 @@ chmod 777 install.sh
 
 ./install.sh
 
+cd ezserver
+./setup.sh
+
 http://ip:18799/admin/index.htm
 
 Login Panel:

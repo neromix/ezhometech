@@ -20,6 +20,9 @@ echo " "
 sudo apt-get install unzip
 sudo apt-get install unrar
 echo " "
+echo -e "${jeshile} ┌──────────────────────────────────────────┐ \e[0m"
+echo -e "${jeshile} │  Downloanding Extracting And Installing  │ \e[0m"
+echo -e "${jeshile} └──────────────────────────────────────────┘ \e[0m"
 echo " "
 wget https://raw.githubusercontent.com/marconimp/ezhometech/master/ezserver_free.part1.rar
 wget https://raw.githubusercontent.com/marconimp/ezhometech/master/ezserver_free.part2.rar

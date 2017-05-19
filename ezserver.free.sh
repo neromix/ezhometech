@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo apt-get update && sudo apt-get install vlc vlc-plugin-* -y && sudo apt-get install vlc browser-plugin-vlc -y
 sudo apt-get install unzip
 if [ -e ezserver.free.tar ]; then
 rm -f ezserver.free.tar

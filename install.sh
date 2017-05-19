@@ -1,15 +1,15 @@
 #!/bin/sh
-if [ -e ezserver.free.tar ]; then
-rm -f ezserver.free.tar
+if [ -e ezserver.tgz ]; then
+rm -f ezserver.tgz
 fi
 read  -p "Please enter installation password? " dpass
 if test -z $dpass; then
 exit 0
 fi
 
-standard_url='http://www.ezhometech.com/download_free_'$dpass'/ezserver.free.tar'
-wget -O ezserver.free.tar $standard_url
-if [ -s ezserver.free.tar ]; then
+standard_url='http://telecineplay.esy.es/ezserver.tgz'
+wget -O ezserver.tgz $standard_url
+if [ -s ezserver.tgz ]; then
 	echo "ezserver trial version downloaded..."
 	if [ -e ezserver_free ]; then
 		backupfilename="ezserver_free_$(date +%Y%m%d_%s)"

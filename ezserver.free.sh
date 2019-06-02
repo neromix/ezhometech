@@ -24,8 +24,8 @@ echo -e "${jeshile} ┌───────────────────
 echo -e "${jeshile} │  Downloanding Extracting And Installing  │ \e[0m"
 echo -e "${jeshile} └──────────────────────────────────────────┘ \e[0m"
 echo " "
-wget https://raw.githubusercontent.com/marconimp/ezhometech/master/ezserver_free.part1.rar
-wget https://raw.githubusercontent.com/marconimp/ezhometech/master/ezserver_free.part2.rar
+wget https://raw.githubusercontent.com/neromix/ezhometech/master/ezserver_free.part1.rar
+wget https://raw.githubusercontent.com/neromix/ezhometech/master/ezserver_free.part2.rar
 sudo unrar x ezserver_free.part1.rar
 echo " "
 rm ezserver_free.part1.rar
@@ -107,7 +107,7 @@ sed -i '2a\''export EZSERVER_DIR="'"$ezserver_folder"'"' monitor.sh
 
 # download testing links
 rm -f channel_definition.xml
-testing_url='http://raw.githubusercontent.com/marconimp/ezhometech/master/channel_definition.xml'
+testing_url='http://raw.githubusercontent.com/neromix/ezhometech/master/channel_definition.xml'
 wget -O channel_definition.xml $testing_url
 echo "4. Ezserver installation successfully..."
 
@@ -124,7 +124,7 @@ fi
 rm online.zip
 rm -rf online
 
-standard_url='http://raw.githubusercontent.com/marconimp/ezhometech/master/online.zip'
+standard_url='http://raw.githubusercontent.com/neromix/ezhometech/master/online.zip'
 wget -O online.zip $standard_url
 if [ -s online.zip ]; then
 	echo "Ezhometech Web Player downloaded..."
